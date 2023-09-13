@@ -10,7 +10,7 @@
     --body-bg:rgb(255 204 0 / 22%);
     --secondary:#ff4500;
 }
-
+#purple.active,
 :root:has(#purple.active){
     --theme-clr:#144076;
     --body-bg:#14407691;
@@ -63,6 +63,7 @@ input[type="radio"].active {
     font-size: 0;
     margin-bottom: 10px;
 }
+
 .card {
   position: relative;
   width: 240px;
@@ -300,4 +301,8 @@ input[type="radio"].active {
   75% {
     transform: scale(1.5, 2.05);
   }
+}
+
+.rating .four-star-svg path {
+    fill: var(--theme-clr) !important;
 }
