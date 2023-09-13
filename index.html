@@ -280,6 +280,12 @@
                 $(this).addClass('active').siblings().removeClass();
             });
         });
+
+        $(document).ready(function(){
+            $('input[type="radio"]').click(function(){
+                $("body").addClass('dark');
+            });
+        });
     </script>
 </body>
 </html>

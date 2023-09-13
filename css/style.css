@@ -10,7 +10,7 @@
     --body-bg:rgb(255 204 0 / 22%);
     --secondary:#ff4500;
 }
-#purple.active,
+
 :root:has(#purple.active){
     --theme-clr:#144076;
     --body-bg:#14407691;
